@@ -1,3 +1,11 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #E5E5E5;
+}
 @font-face{
 	src: url(../fonts/roboto-regular.ttf);
 	font-family: roboto;
@@ -131,11 +139,12 @@ ul.follow-us li.tumblr{
 }
 
 .services-bg{
-	position: relative;
-	background: url(../images/bg5.jpg) no-repeat;
-	background-size: cover;
-	min-height: 400px;
+	background-color: #E5E5E5;
 	padding-top: 60px;
+	color: blue;
+}
+.services-bg h1 {
+	color: blue;
 }
 
 .chef-bg{
@@ -145,7 +154,15 @@ ul.follow-us li.tumblr{
 }
 
 .posts-top-margin{
-	margin-top: 250px;
+	margin-top: 100px;
+}
+.posts-top-margin h4 {
+	color: blue;
+}
+.posts-top-margin h2 {
+	color: blue;
+	border-bottom: 3px solid blue;
+	border-end-end-radius: 50%;
 }
 
 .card-header{
@@ -235,9 +252,6 @@ img.img-blog{
 .phone{
 	font-size: 15px;
 }
-.contact-c{
-	color:;
-}
 .footer-copy{
 	width: 100%;
 	background-color: #1b1d1ef2;
@@ -262,4 +276,21 @@ div.mobile-nav{
 	padding-left: 15px;
 	padding-right: 15px;
 
+}
+}
+
+.section {
+	background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%);
+	color: #fff
+}
+.section h3 {
+	color: #fff;
+}
+.section button {
+	color: #fff;
+	border: 1px solid #fff;
+	margin-right: 20px;
+}
+.section .btn-light {
+	color: blue;
 }
