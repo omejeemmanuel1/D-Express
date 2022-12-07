@@ -98,45 +98,11 @@ ul.follow-us li.tumblr{
 	padding: 0;
 }
 
-.left-middle-bg{
-	width: 100%;
-	min-height: 400px;
-	background-image: url(../images/bg1.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 .about-us{
 	padding-right: 10%;
 	padding-top: 6%;
 }
 
-.row .card-header{
-	padding: 0;
-}
-
-.left-bottom-bg{
-	background-image: url(../images/bg3.jpg);
-	background-size: cover;
-	height: 450px;
-	background-repeat: no-repeat;
-	color: #fff;
-	padding: 15% 3%;
-}
-
-.right-bottom-bg{
-	background-image: url(../images/bg4.jpg);
-	background-size: cover;
-	height: 450px;
-	background-repeat: no-repeat;
-	color: #fff;
-	padding: 15% 3%;
-	box-sizing: border-box;
-}
-
-.left-bottom-bg h3, .right-bottom-bg h3{
-	color: #eee;
-}
 
 .services-bg{
 	background-color: #E5E5E5;
@@ -147,11 +113,6 @@ ul.follow-us li.tumblr{
 	color: blue;
 }
 
-.chef-bg{
-	position: absolute;
-	bottom: -40%;
-	left: 30%;
-}
 
 .posts-top-margin{
 	margin-top: 100px;
@@ -171,66 +132,6 @@ ul.follow-us li.tumblr{
 	position: relative;
 }
 
-img.img-blog{
-	position: absolute;
-	bottom: -16%;
-	left: 6%;
-}
-
-.blog-title{
-	margin-top: 40px;
-}
-
-.author{
-	border-top: 2px solid #eee;
-	border-bottom: 2px solid #eee;
-	padding: 5px;
-	margin-bottom: 5px;
-}
-
-.all-menu-slider{
-	background-image: url(../images/bg7.jpg);
-	background-repeat: repeat-x;
-	min-height: 400px;
-	background-size: cover;
-	animation: menuSlider 20000s infinite linear;
-	-webkit-animation: menuSlider 20000s infinite linear;
-	-moz-animation: menuSlider 20000s infinite linear;
-}
-
-@keyframes menuSlider{
-	from{
-		background-position: 0%;
-	} 
-
-	to{
-		background-position: 90000%;
-	}
-}
-
-
-@-webkit-keyframes menuSlider{
-	from{
-		background-position: 0%;
-	} 
-
-	to{
-		background-position: 90000%;
-	}
-}
-
-@-moz-keyframes menuSlider{
-	from{
-		background-position: 0%;
-	} 
-
-	to{
-		background-position: 90000%;
-	}
-}
-.container-final{
-	background-color: #000;
-}
 .email{
 	width: 82%;
 	margin-top: 5px;
@@ -238,59 +139,59 @@ img.img-blog{
 
 	
 }
-.comment{
-	width: 82%;
-	margin-top: 5px;
-	font-size: 15px;
-
-	
-
-}
 .submit-left{
 	margin-left: 65%;
 }
 .phone{
 	font-size: 15px;
 }
-.footer-copy{
-	width: 100%;
-	background-color: #1b1d1ef2;
-}
+
 .container-fluid.footer{
-	background-color: #000;
+	background-color: blue;
 	color: #fff;
 	padding: 50px 0;
 }
 .container-fluid.footer h3{
 	color: #fff;
 }
-div.mobile-nav{
-	display: none;
-}
-@media only screen and (max-width: 767px){
-	ul.nav{
-         display: none;
-	}
-div.mobile-nav{
-	display: block;
-	padding-left: 15px;
-	padding-right: 15px;
 
-}
-}
 
-.section {
-	background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%);
+.header {
+	background: linear-gradient(96.22deg, #043CAA -0.66%, rgba(4, 60, 170, 0.86) 44.05%, rgba(4, 60, 170, 0) 100%), url(../images/4.jpeg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #fff
 }
 .section h3 {
 	color: #fff;
 }
-.section button {
+.header button {
 	color: #fff;
 	border: 1px solid #fff;
-	margin-right: 20px;
+	margin: 5px;
 }
 .section .btn-light {
 	color: blue;
+}
+
+.no-gutters h1{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.navbar a{
+	color: #fff;
+	font-weight: bold;
+	
+}
+
+#form {
+	width: 400px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px black;
+	position: absolute;
+	top:0;
+	right: 0;
+	display: none;
 }
